@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Tilbud | House Moving Service</title>
+    <!-- bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css"
+      integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- ==== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="custom.js"></script>
+    <!-- ==== -->
+  </head>
+  <body class="service-house-moving-page">
+    <!-- header -->
+    <header>
+      <div class="top-menu">
+        <div class="container">
+          <div class="py-2 d-flex justify-content-between align-items-center">
+            <div>+215487963</div>
+            <div class="d-flex gap-4">
+              <a href="login.html" class="sign-up-btn login-btn">Log In</a>
+              <a href="register-user.html" class="sign-up-btn">Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a
+            class="navbar-brand fw-bold"
+            style="font-size: 30px"
+            href="index.html"
+            ><span style="color: var(--main-color)">Flex</span>
+            <span style="color: var(--btn-bg-color)">Tilbud</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item position-relative" id="services-nav-link">
+                <a class="nav-link serv-nav-hover" href="#"
+                  ><span class="pe-1">Services</span
+                  ><i class="fa-solid fa-chevron-down"></i
+                ></a>
+                <div class="services-menu d-none position-absolute p-3">
+                  <a
+                    href="#"
+                    class="serv-item-in-menu d-flex justify-content-between align-items-center mb-3 border-bottom pb-3"
+                  >
+                    <div>
+                      <div>
+                        <h5>Cleaning</h5>
+                        <p>From 13$ Per Hour</p>
+                      </div>
+                    </div>
+                    <div class="serv-img-border">
+                      <div>
+                        <img src="assets/imgs/cleaning (1).png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="serv-item-in-menu d-flex justify-content-between align-items-center mb-3 border-bottom pb-3"
+                  >
+                    <div>
+                      <div>
+                        <h5>Cooking</h5>
+                        <p>From 15$ Per Hour</p>
+                      </div>
+                    </div>
+                    <div class="serv-img-border">
+                      <div>
+                        <img src="assets/imgs/cooking.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="serv-item-in-menu d-flex justify-content-between align-items-center mb-3 border-bottom pb-3"
+                  >
+                    <div>
+                      <div>
+                        <h5>Disposing Old Furniture</h5>
+                        <p>From 12$ Per Hour</p>
+                      </div>
+                    </div>
+                    <div class="serv-img-border">
+                      <div>
+                        <img src="assets/imgs/old-furniture.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="serv-item-in-menu d-flex justify-content-between align-items-center mb-3 border-bottom pb-3"
+                  >
+                    <div>
+                      <div>
+                        <h5>House Moving</h5>
+                        <p>From 18$ Per Hour</p>
+                      </div>
+                    </div>
+                    <div class="serv-img-border">
+                      <div>
+                        <img src="assets/imgs/moving (1).png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+                  <a
+                    href="all-services.html"
+                    class="d-flex justify-content-center align-items-center"
+                  >
+                    <span class="me-1">All Services</span>
+                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                  </a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-user.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header -->
+
+
+
+
+
+    <form action="" class="container service-form rounded-5 p-5 my-5">
+      <div class="row">
+        <ul class="nav nav-tabs d-flex justify-content-center gap-5" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="step1-tab" data-bs-toggle="tab" data-bs-target="#step1" type="button" role="tab" aria-controls="step1" aria-selected="true">step1</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="step2-tab" data-bs-toggle="tab" data-bs-target="#step2" type="button" role="tab" aria-controls="step2" aria-selected="false">step2</button>
+          </li>
+        </ul>
+
+     
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane py-3 fade show active" id="step1" role="tabpanel" aria-labelledby="step1-tab">
+           <div class="row g-3">
+            <div class="col-md-6">
+              <div>
+                <label for="citySelect">Current City</label>
+                <select id="citySelect" class="form-select" name="current_city">
+                  <option value="" disabled selected>Select a city...</option>
+                  <option value="Copenhagen">Copenhagen</option>
+                  <option value="Aarhus">Aarhus</option>
+                  <option value="Odense">Odense</option>
+                  <option value="Aalborg">Aalborg</option>
+                  <option value="Esbjerg">Esbjerg</option>
+                  <option value="Randers">Randers</option>
+                  <option value="Kolding">Kolding</option>
+                  <option value="Horsens">Horsens</option>
+                  <option value="Vejle">Vejle</option>
+                  <option value="Roskilde">Roskilde</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div>
+                <label for="etage">Floor</label>
+                <input type="number" id="floor" name="floor_num" class="form-control">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div>
+                <label for="postal_code">Postal Code</label>
+               <input type="number" name="postal_code" class="form-control">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div>
+                <label for="distance">Driving distance between the two homes in km</label>
+               <input type="number" name="distance_bet_homes" class="form-control" placeholder="100km">
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="d-flex justify-content-center align-items-center gap-5">
+                <div>Moving from: </div>
+                <div><input type="radio" id="building_type1" name="building_type" value="house"> <label for="building_type1">House</label></div>
+                <div><input type="radio" id="building_type2" name="building_type" value="apartment"> <label for="building_type2">Apartment</label></div>
+                <div><input type="radio" id="building_type3" name="building_type" value="office"> <label for="building_type3">Office</label></div>
+                <div><input type="radio" id="building_type4" name="building_type" value="storage"> <label for="building_type4">Storage</label></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div> 
+                <label for="area">Area in m<sup>2</sup></label>
+                <input type="number" name="area" id="area" class="form-control" placeholder="Don't know? write 0">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div> 
+                <label for="park_building">Parking distance to the door in m</label>
+                <input type="number" name="distance_bet_park_building" id="park_building" class="form-control">
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="d-flex justify-content-center align-items-center gap-5">
+                <div>Elevator</div>
+                <div><input type="radio" id="elevator_yes" name="elevator_exist" value="yes"> <label for="elevator_yes">Yes</label></div>
+                <div><input type="radio" id="elevator_no" name="elevator_exist" value="no"> <label for="elevator_no">No</label></div>
+              </div>
+            </div>
+            <div class="col-12 border-bottom"></div>
+            <div class="col-12">
+              <div class="d-flex justify-content-center align-items-center gap-5">
+                <div>Also needs to be moved, such as: </div>
+                <div><input type="checkbox" id="Bessment room" name="needs_to_be_moved1" value="Bessment room"> <label for="Bessment room">Bessment room</label></div>
+                <div><input type="checkbox" id="Attic" name="needs_to_be_moved2" value="Attic"> <label for="Attic">Attic</label></div>
+                <div><input type="checkbox" id="Garden" name="needs_to_be_moved3" value="Garden"> <label for="Garden">Garden</label></div>
+              </div>
+            </div>
+            <div class="col-12">
+              <label for="desired-date">Preferred moving Date</label>
+              <input type="date" class="form-control">
+            </div>
+            <div class="col-12 border-bottom"></div>
+            <div class="col-md-6">
+              <div>
+                <div class="mb-3">*Desired services such as:</div>
+                <div><input type="checkbox" id="Help with moving" name="other_desired_services1" value="Help with moving"> <label for="Help with moving">Help with moving</label></div>
+                <div><input type="checkbox" id="Packing and wrapping" name="other_desired_services2" value="Packing and wrapping"> <label for="Packing and wrapping">Packing and wrapping</label></div>
+                <div><input type="checkbox" id="Disassembly and reassembly" name="other_desired_services3" value="Disassembly and reassembly"> <label for="Disassembly and reassembly">Disassembly and reassembly</label></div>
+                <div><input type="checkbox" id="Mounting" name="other_desired_services4" value="Mounting"> <label for="Mounting">Mounting</label></div>
+                <div><input type="checkbox" id="Unpacking and setting up" name="other_desired_services5" value="Unpacking and setting up"> <label for="Unpacking and setting up">Unpacking and setting up</label></div>
+              </div>
+            </div>
+            <div class="col-12 border-bottom"></div>
+            <div class="col-12">
+              <div>
+                <div class="mb-3">*Please Note That:</div>
+                <div><input type="checkbox" id="note1" name="note1" value="having heavy sofa"> <label for="note1">We have a large and heavy sofa that needs to be transported to the new address</label></div>
+                <div><input type="checkbox" id="note2" name="note2" value="having fragile items"> <label for="note2">We have some fragile items that need to be packed carefully</label></div>
+                <div><input type="checkbox" id="note3" name="note3" value="having valuable paintings"> <label for="note3">We have some valuable paintings that require special protection during the move</label></div>
+                <div><input type="checkbox" id="note4" name="note4" value="having piano"> <label for="note4">We have a piano that requires special handling during the move</label></div>
+              </div>
+            </div>
+            <div class="col-12 border-bottom"></div>
+            <div class="col-12">
+              <div>
+                <label for="msg">*Want to inform the moving company important information?</label>
+                <textarea name="message" class="form-control" id="msg" rows="5" placeholder="Your Message"></textarea>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="d-flex justify-content-center align-items-center">
+                <input type="file" id="attache_imgs" name="pictures" hidden>
+                <div class="attache_imgs d-flex align-items-center">Attache Images <span class="ps-2"><i class="fa-regular fa-images"></i></span></div>
+              </div>
+              <div class="p-3 d-flex align-items-center justify-content-center flex-wrap gap-3">
+                <div><img src="assets/imgs/moving (1).png" class="w-100" alt=""></div>
+                <div><img src="assets/imgs/moving (1).png" class="w-100" alt=""></div>
+                <div><img src="assets/imgs/moving (1).png" class="w-100" alt=""></div>
+                <div><img src="assets/imgs/moving (1).png" class="w-100" alt=""></div>
+                <div><img src="assets/imgs/moving (1).png" class="w-100" alt=""></div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="d-flex justify-content-center align-items-center fw-bold">Go to Step 2 <span class="ps-2"><i class="fa-solid fa-arrow-up"></i></span></div>
+            </div>
+           </div>
+          </div>
+          <div class="tab-pane py-3 fade" id="step2" role="tabpanel" aria-labelledby="step2-tab">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div>
+                  <label for="citySelect">Current City</label>
+                  <select id="citySelect" class="form-select" name="current_city">
+                    <option value="" disabled selected>Select a city...</option>
+                    <option value="Copenhagen">Copenhagen</option>
+                    <option value="Aarhus">Aarhus</option>
+                    <option value="Odense">Odense</option>
+                    <option value="Aalborg">Aalborg</option>
+                    <option value="Esbjerg">Esbjerg</option>
+                    <option value="Randers">Randers</option>
+                    <option value="Kolding">Kolding</option>
+                    <option value="Horsens">Horsens</option>
+                    <option value="Vejle">Vejle</option>
+                    <option value="Roskilde">Roskilde</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div>
+                  <label for="etage">Floor</label>
+                  <input type="number" id="floor" name="floor_num" class="form-control">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div>
+                  <label for="postal_code">Postal Code</label>
+                 <input type="number" name="postal_code" class="form-control">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div>
+                  <label for="distance">Driving distance between the two homes in km</label>
+                 <input type="number" name="distance_bet_homes" class="form-control" placeholder="100km">
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="d-flex justify-content-center align-items-center gap-5">
+                  <div>Moving from: </div>
+                  <div><input type="radio" id="building_type1" name="building_type" value="house"> <label for="building_type1">House</label></div>
+                  <div><input type="radio" id="building_type2" name="building_type" value="apartment"> <label for="building_type2">Apartment</label></div>
+                  <div><input type="radio" id="building_type3" name="building_type" value="office"> <label for="building_type3">Office</label></div>
+                  <div><input type="radio" id="building_type4" name="building_type" value="storage"> <label for="building_type4">Storage</label></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div> 
+                  <label for="area">Area in m<sup>2</sup></label>
+                  <input type="number" name="area" id="area" class="form-control" placeholder="Don't know? write 0">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div> 
+                  <label for="park_building">Parking distance to the door in m</label>
+                  <input type="number" name="distance_bet_park_building" id="park_building" class="form-control">
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="d-flex justify-content-center align-items-center gap-5">
+                  <div>Elevator</div>
+                  <div><input type="radio" id="elevator_yes" name="elevator_exist" value="yes"> <label for="elevator_yes">Yes</label></div>
+                  <div><input type="radio" id="elevator_no" name="elevator_exist" value="no"> <label for="elevator_no">No</label></div>
+                </div>
+              </div>
+              <div class="col-12 border-bottom"></div>
+              <div class="col-12">
+                <div class="d-flex justify-content-center align-items-center gap-5">
+                  <div>Also needs to be moved, such as: </div>
+                  <div><input type="checkbox" id="Bessment room" name="needs_to_be_moved1" value="Bessment room"> <label for="Bessment room">Bessment room</label></div>
+                  <div><input type="checkbox" id="Attic" name="needs_to_be_moved2" value="Attic"> <label for="Attic">Attic</label></div>
+                  <div><input type="checkbox" id="Garden" name="needs_to_be_moved3" value="Garden"> <label for="Garden">Garden</label></div>
+                </div>
+              </div>
+              <div class="col-12">
+                <label for="desired-date">Preferred moving Date</label>
+                <input type="date" class="form-control">
+              </div>
+              <div class="col-12 border-bottom"></div>
+              <div class="col-md-6">
+                <div>
+                  <div class="mb-3">*Desired services such as:</div>
+                  <div><input type="checkbox" id="Help with moving" name="other_desired_services1" value="Help with moving"> <label for="Help with moving">Help with moving</label></div>
+                  <div><input type="checkbox" id="Packing and wrapping" name="other_desired_services2" value="Packing and wrapping"> <label for="Packing and wrapping">Packing and wrapping</label></div>
+                  <div><input type="checkbox" id="Disassembly and reassembly" name="other_desired_services3" value="Disassembly and reassembly"> <label for="Disassembly and reassembly">Disassembly and reassembly</label></div>
+                  <div><input type="checkbox" id="Mounting" name="other_desired_services4" value="Mounting"> <label for="Mounting">Mounting</label></div>
+                  <div><input type="checkbox" id="Unpacking and setting up" name="other_desired_services5" value="Unpacking and setting up"> <label for="Unpacking and setting up">Unpacking and setting up</label></div>
+                </div>
+              </div>
+              <div class="col-12 border-bottom"></div>
+              <div class="col-12">
+                <div>
+                  <div class="mb-3">*Please Note That:</div>
+                  <div><input type="checkbox" id="note1" name="note1" value="having heavy sofa"> <label for="note1">We have a large and heavy sofa that needs to be transported to the new address</label></div>
+                  <div><input type="checkbox" id="note2" name="note2" value="having fragile items"> <label for="note2">We have some fragile items that need to be packed carefully</label></div>
+                  <div><input type="checkbox" id="note3" name="note3" value="having valuable paintings"> <label for="note3">We have some valuable paintings that require special protection during the move</label></div>
+                  <div><input type="checkbox" id="note4" name="note4" value="having piano"> <label for="note4">We have a piano that requires special handling during the move</label></div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="d-flex justify-content-center align-items-center fw-bold">Go to Step 2 <span class="ps-2"><i class="fa-solid fa-arrow-up"></i></span></div>
+              </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </form>
+
+
+
+
+
+
+
+    <!-- our benefits -->
+    <div class="container pt-5 pb-5">
+      <!-- heading section -->
+      <div class="heading-section my-5">
+        <div
+          class="text-capitalize d-flex justify-content-center align-items-center"
+        >
+          <span class="position-relative">What To Expect!</span>
+        </div>
+      </div>
+      <!-- heading section -->
+      <div class="row g-md-5 g-3">
+        <div class="col-md-4">
+          <div>
+            <div class="mb-3">
+              <img class="benefit-img" src="assets/imgs/checklist.png" alt="" />
+            </div>
+            <h5 class="text-capitalize mb-3">Customer Loyalty Discount</h5>
+            <p>
+              The lowest prices for all, and special discounts for loyal
+              customers trusting our top quality.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div>
+            <div class="mb-3">
+              <img
+                class="benefit-img"
+                src="assets/imgs/001-thumbs-up.png"
+                alt=""
+              />
+            </div>
+            <h5 class="text-capitalize mb-3">100% Happy Guarantee</h5>
+            <p>
+              We employ a robust quality assurance process to deliver flawless
+              quality of our work.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div>
+            <div class="mb-3">
+              <img class="benefit-img" src="assets/imgs/target.png" alt="" />
+            </div>
+            <h5 class="text-capitalize mb-3">Verbatim Results</h5>
+            <p>
+              Despite industry, accent, or language, we work on it with
+              consistent legal-level accuracy.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div>
+            <div class="mb-3">
+              <img
+                class="benefit-img"
+                src="assets/imgs/003-stopwatch.png"
+                alt=""
+              />
+            </div>
+            <h5 class="text-capitalize mb-3">Rush Order Option</h5>
+            <p>
+              The lowest prices for all, and special discounts for loyal
+              customers trusting our top quality.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div>
+            <div class="mb-3">
+              <img class="benefit-img" src="assets/imgs/clock.png" alt="" />
+            </div>
+            <h5 class="text-capitalize mb-3">Instant Ordering</h5>
+            <p>
+              You are a few simple and hassle-free steps away from placing the
+              order taking few moments.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div>
+            <div class="mb-3">
+              <img class="benefit-img" src="assets/imgs/discount.png" alt="" />
+            </div>
+            <h5 class="text-capitalize mb-3">Custom Orders & Integration</h5>
+            <p>
+              Any special requirements for your documents? We're up to the task!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- our benefits -->
+    <!-- most popular questions -->
+    <div class="container">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+              Question #1
+            </button>
+          </h2>
+          <div
+            id="flush-collapseOne"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+              deleniti omnis eos? Laborum laudantium, explicabo vero odio vitae
+              quod qui?
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              Question #2
+            </button>
+          </h2>
+          <div
+            id="flush-collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi
+              totam ad non ea facilis voluptas suscipit perferendis possimus rem
+              dolor, similique asperiores ipsam libero qui nesciunt vero, rerum,
+              omnis perspiciatis!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree"
+              aria-expanded="false"
+              aria-controls="flush-collapseThree"
+            >
+              Question #3
+            </button>
+          </h2>
+          <div
+            id="flush-collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
+              repudiandae incidunt minima eius saepe deserunt, tempore facilis
+              nulla iusto ad est odio voluptates provident deleniti vel, ea
+              corporis aliquid praesentium quaerat quo at possimus, ipsum culpa
+              eveniet. Obcaecati, earum est!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-hadingFour">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour"
+              aria-expanded="false"
+              aria-controls="flush-collapseFour"
+            >
+              Question #3
+            </button>
+          </h2>
+          <div
+            id="flush-collapseFour"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-hadingFour"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
+              repudiandae incidunt minima eius saepe deserunt, tempore facilis
+              nulla iusto ad est odio voluptates provident deleniti vel, ea
+              corporis aliquid praesentium quaerat quo at possimus, ipsum culpa
+              eveniet. Obcaecati, earum est!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- most popular questions -->
+
+    <!-- footer -->
+    <footer class="pt-5">
+      <div class="container">
+        <div class="row pb-4 border-bottom">
+          <div class="col-md-4">
+            <div>
+              <h2 class="text-capitalize mb-5">lorem opseom test and words</h2>
+              <div class="mybtn justify-content-start">
+                <a href="#">join us</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 row">
+            <div class="col-6">
+              <div class="fw-bold text-capitalize mb-2">Useful Links</div>
+              <ul class="list-unstyled links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <div class="fw-bold text-capitalize mb-2">Services</div>
+              <ul class="list-unstyled links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="col-md-4 d-flex align-items-center justify-content-center border-start"
+          >
+            <div
+              class="fw-bold fs-3 bg-light d-flex justify-content-center align-items-center"
+            >
+              <span
+                class="text-capitalize"
+                style="color: var(--main-color) !important"
+                >flex</span
+              >
+              <span
+                class="text-capitalize"
+                style="color: var(--btn-bg-color) !important"
+                >tilbud</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center py-3">
+          <div class="d-flex align-items-center">
+            <a href="#" class="me-4">About Us</a>
+            <a href="#">Privacy</a>
+          </div>
+          <ul class="footer-icons list-unstyled d-flex m-0">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
+    <!-- ==================== -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.bundle.min.js"
+      integrity="sha512-ToL6UYWePxjhDQKNioSi4AyJ5KkRxY+F1+Fi7Jgh0Hp5Kk2/s8FD7zusJDdonfe5B00Qw+B8taXxF6CFLnqNCw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

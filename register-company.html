@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Tilbud - Sign Up</title>
+    <!-- bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css"
+      integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- ==== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="custom.js"></script>
+    <!-- ==== -->
+  </head>
+  <body class="contact-page">
+    <!-- header -->
+    <header>
+      <div class="top-menu">
+        <div class="container">
+          <div class="py-2 d-flex justify-content-between align-items-center">
+            <div>+215487963</div>
+            <div class="d-flex gap-4">
+              <a href="login.html" class="sign-up-btn login-btn">Log In</a>
+              <a href="register-user.html" class="sign-up-btn">Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a
+            class="navbar-brand fw-bold"
+            style="font-size: 30px"
+            href="index.html"
+            ><span style="color: var(--main-color)">Flex</span>
+            <span style="color: var(--btn-bg-color)">Tilbud</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item position-relative" id="services-nav-link">
+                <a class="nav-link serv-nav-hover" href="#"
+                  ><span class="pe-1">Services</span
+                  ><i class="fa-solid fa-chevron-down"></i
+                ></a>
+                <div class="services-menu d-none position-absolute p-3">
+                  <a
+                    href="#"
+                    class="serv-item-in-menu d-flex justify-content-between align-items-center mb-3 border-bottom pb-3"
+                  >
+                    <div>
+                      <div>
+                        <h5>Cleaning</h5>
+                        <p>From 13$ Per Hour</p>
+                      </div>
+                    </div>
+                    <div class="serv-img-border">
+                      <div>
+                        <img src="assets/imgs/cleaning (1).png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="serv-item-in-menu d-flex justify-content-between align-items-center mb-3 border-bottom pb-3"
+                  >
+                    <div>
+                      <div>
+                        <h5>Cooking</h5>
+                        <p>From 15$ Per Hour</p>
+                      </div>
+                    </div>
+                    <div class="serv-img-border">
+                      <div>
+                        <img src="assets/imgs/cooking.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="serv-item-in-menu d-flex justify-content-between align-items-center mb-3 border-bottom pb-3"
+                  >
+                    <div>
+                      <div>
+                        <h5>Disposing Old Furniture</h5>
+                        <p>From 12$ Per Hour</p>
+                      </div>
+                    </div>
+                    <div class="serv-img-border">
+                      <div>
+                        <img src="assets/imgs/old-furniture.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+                  <a
+                    href="#"
+                    class="serv-item-in-menu d-flex justify-content-between align-items-center mb-3 border-bottom pb-3"
+                  >
+                    <div>
+                      <div>
+                        <h5>House Moving</h5>
+                        <p>From 18$ Per Hour</p>
+                      </div>
+                    </div>
+                    <div class="serv-img-border">
+                      <div>
+                        <img src="assets/imgs/moving (1).png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+                  <a
+                    href="all-services.html"
+                    class="d-flex justify-content-center align-items-center"
+                  >
+                    <span class="me-1">All Services</span>
+                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                  </a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-user.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header -->
+
+    <main class="pt-5">
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-6">
+            <a
+              href="register-user.html"
+              class="as-item d-block rounded-pill p-3 text-center"
+            >
+              Sign Up As User
+            </a>
+          </div>
+          <div class="col-6">
+            <a href="register-company.html" class="as-item d-block rounded-pill p-3 text-center active">
+              Sign Up As Company
+            </a>
+          </div>
+        </div>
+      </div>
+      <form class="container">
+        <div class="row p-5">
+         <h2>Create an account</h2>
+         <p class="fs-6 mb-4">Looking to do something great?</p>
+         <div class="col-md-6">
+          <div>
+            <input
+            type="text"
+            name="c_name"
+            placeholder="* Name"
+            class="form-control rounded-pill mb-3"
+          />
+          </div>
+          <div>
+            <input
+            type="text"
+            name="c_email"
+            placeholder="* Email"
+            class="form-control rounded-pill mb-3"
+          />
+          </div>
+         
+          <div>
+            <input
+            type="text"
+            name="c_phone"
+            placeholder="* Phone"
+            class="form-control rounded-pill mb-3"
+          />
+          </div>
+          <div>
+            <input
+            type="password"
+            name="c_pass"
+            placeholder="* Password"
+            class="form-control rounded-pill mb-3"
+          />
+          </div>
+          <div>
+            <input type="submit" class="form-control rounded-pill mt-5 fw-medium" value="Sign Up">
+          </div>
+        </div>
+         <div class="col-md-6">
+          <div>
+            <input
+            type="text"
+            name="address"
+            placeholder="* Address"
+            class="form-control rounded-pill mb-3"
+          />
+          </div>
+          <div>
+              <select class="w-100 border-secondary border-warning-subtle rounded-pill px-2 py-2">
+                <option selected disabled>Choose a service you provide</option>
+                <option value="cleaning">🧹 Cleaning</option>
+                <option value="cooking">🍳 Cooking</option>
+                <option value="furniture">🪑 Furniture Disposal</option>
+                <option value="moving">🏠 House Moving</option>
+              </select>
+          </div>
+          <div class="my-4" style="color: var(--secondary-color);">
+            <input type="checkbox" id="offer"> <label for="offer">I'm interested in a special offer for enterprise</label>
+          </div>
+        </div>
+        <div class="col-12 line my-3"></div>
+        <div>Already have an account? <a href="login.html" class="fw-bold link">Log In</a> </div>
+
+        </div>
+       
+      </form>
+      <div class="container my-3">
+        <div class="text-center d-flex align-items-center justify-content-center text-muted">
+          <span class="pe-1"><i class="fa-solid fa-lock"></i></span><span>Security, privacy, and confidentiality guarantee: 2048-bit SSL encryption, NDA protection</span>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="pt-5">
+      <div class="container">
+        <div class="row pb-4 border-bottom">
+          <div class="col-md-4">
+            <div>
+              <h2 class="text-capitalize mb-5">lorem opseom test and words</h2>
+              <div class="mybtn justify-content-start">
+                <a href="#">join us</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 row">
+            <div class="col-6">
+              <div class="fw-bold text-capitalize mb-2">Useful Links</div>
+              <ul class="list-unstyled links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <div class="fw-bold text-capitalize mb-2">Services</div>
+              <ul class="list-unstyled links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="col-md-4 d-flex align-items-center justify-content-center border-start"
+          >
+            <div
+              class="fw-bold fs-3 bg-light d-flex justify-content-center align-items-center"
+            >
+              <span
+                class="text-capitalize"
+                style="color: var(--main-color) !important"
+                >flex</span
+              >
+              <span
+                class="text-capitalize"
+                style="color: var(--btn-bg-color) !important"
+                >tilbud</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center py-3">
+          <div class="d-flex align-items-center">
+            <a href="#" class="me-4">About Us</a>
+            <a href="#">Privacy</a>
+          </div>
+          <ul class="footer-icons list-unstyled d-flex m-0">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
+    <!-- ==================== -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.bundle.min.js"
+      integrity="sha512-ToL6UYWePxjhDQKNioSi4AyJ5KkRxY+F1+Fi7Jgh0Hp5Kk2/s8FD7zusJDdonfe5B00Qw+B8taXxF6CFLnqNCw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
